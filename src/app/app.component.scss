@@ -1,0 +1,13 @@
+.sp-root__pages {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 24px;
+
+  a {
+    color: darkblue;
+  }
+
+  & &--active {
+    color: orange;
+  }
+}
